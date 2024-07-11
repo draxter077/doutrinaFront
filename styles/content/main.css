@@ -2,20 +2,22 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-
-    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 200px;
 }
-
 .contentOption{
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     height: fit-content;
-    width: 22%;
-    padding: 10px;
+    width: 45%;
+    padding: 20px;
 
     box-shadow: 0px 0px 10px 5px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 0px 0px 30px 0px;
 }
 .coTitle{
     padding: 10px;
@@ -30,7 +32,6 @@
     width: 100%;
     margin: 10px 0px 0px 0px;
 }
-
 .coOption{
     margin: 5px 0px;
 }
