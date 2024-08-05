@@ -3,6 +3,7 @@ import topDiv from "./comps/top/main.js"
 
 function initPageAddFunctionsToButtons(){
     document.getElementsByClassName("initBodySearch")[0].children[1].onclick = function a(){
+        console.log("OIIEIIEROEIROEI")
         window.location.href = '/Doutrina/?part=123';
     }
 }
