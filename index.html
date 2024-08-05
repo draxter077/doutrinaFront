@@ -3,56 +3,20 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>doutrina.net</title>
-        <link rel="icon" href="https://www.doutrina.net/favicon.ico">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" type="image/x-icon" href="https://www.doutrina.net/favicon.ico">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="./styles/resetCss.css">
-        <link rel="stylesheet" href="./styles/basics/main.css">
-        <link rel="stylesheet" href="./styles/upMenu/main.css">
-        <link rel="stylesheet" href="./styles/content/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./main.css">
     </head>
 
     <body>
-        <div class="basicDiv upMenu">
-            <div class="basicDiv logo">
-                doutrina.net
-            </div>
-        </div>
-
-        <div class="basicDiv content">
-            <div class="contentOption">
-                <div class="coOptions">
-                    <div class="coOption">
-                        Direito Civil
-                    </div>
-                    <div class="coOption">
-                        Direito Constitucional
-                    </div>
-                    <div class="coOption">
-                        Direito Administrativo
-                    </div>
-                    <div class="coOption">
-                        Direito Penal
-                    </div>
-                    <div class="coOption">
-                        Processual Civil
-                    </div>
-                    <div class="coOption">
-                        Processual Penal
-                    </div>
-                </div>
-            </div>
-            <div class="basicDiv search">
-                <input class="searchInput" placeholder="Pesquise aqui">
-                <button class="searchButton">
-                    <img src="https://w7.pngwing.com/pngs/265/983/png-transparent-magnifying-glass-computer-icons-magnifier-symbol-magnifying-glass-glass-text-magnifier-thumbnail.png">
-                </button>
-            </div>
-            Dicionário Jurídico
-        </div>
+        <div id="root"></div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="module" src="./main.js"></script>
     </body>
 </html>

@@ -1,0 +1,29 @@
+.initTop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgb(0, 0, 0);
+    padding: 30px 35px 15px 30px;
+}
+.initTopLogo{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 10px 15px;
+}
+.initTopButtons{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+.initTopButtons>button{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: background var(--transitionTime), color var(--transitionTime);
+}
+.initTopButtons>button:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
