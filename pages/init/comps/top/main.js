@@ -1,9 +1,6 @@
-export default function bodyDiv(){
+export default function topDiv(){
     return(`
         <div class="initTop">
-            <div class="initTopLogo">
-                doutrina.net
-            </div>
             <div class="initTopButtons">
                 <button>Direito Civil</button>
                 <button>Direito Penal</button>
