@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding: 20px;
 }
 .initTopButtons{
     width: fit-content;
