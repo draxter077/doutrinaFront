@@ -1,4 +1,4 @@
-.initTop{
+.initBottom{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,14 +6,16 @@
     background: rgb(0, 0, 0);
     width: 100%;
     padding: 20px;
+    position: fixed;
+    bottom: 0px;
 }
-.initTopButtons{
+.initBottomButtons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
 }
-.initTopButtons>button{
+.initBottomButtons>button{
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -21,13 +23,13 @@
     border-radius: 15px;
     transition: background var(--transitionTime), color var(--transitionTime);
 }
-.initTopButtons>button:hover{
+.initBottomButtons>button:hover{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1000px){
-    .initTopButtons{
+    .initBottomButtons{
         width: 100%;
     }
 }
