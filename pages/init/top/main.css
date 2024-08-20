@@ -16,6 +16,8 @@
     align-items: center;
     width: 80%;
     padding: 20px;
+
+    flex-wrap: wrap;
 }
 
 .initTop>div>button{
