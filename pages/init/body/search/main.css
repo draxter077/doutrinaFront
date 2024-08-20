@@ -1,0 +1,37 @@
+.initBodySearch{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    border: 1px solid var(--colorBlack);
+    padding: 10px 10px 10px 20px;
+    border-radius: 20px;
+    width: 40%;
+    transition: box-shadow var(--transitionTime);
+}
+
+.initBodySearch:hover{
+    box-shadow: 0px 0px 10px 0px var(--colorBlack);
+}
+
+.initBodySearch>input{
+    width: 100%;
+}
+
+.initBodySearch>button{
+    background: var(--colorWhite);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color var(--transitionTime), background var(--transitionTime);
+}
+
+.initBodySearch>button:hover{
+    background: var(--colorBlack);
+    color: var(--colorWhite)
+}
+
+@media screen and (max-width: 1000px){
+    .initBodySearch{
+        width: 95%;
+    }
+}

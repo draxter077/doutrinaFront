@@ -1,15 +1,11 @@
-import bodyDiv from "./comps/body/main.js"
-import topDiv from "./comps/top/main.js"
-import bottomDiv from "./comps/bottom/main.js";
+import top from "./top/main.js"
+import body from "./body/main.js"
+import bottom from "./bottom/main.js"
 
-function initPageAddFunctionsToButtons(){
-    document.getElementsByClassName("initBodySearch")[0].children[1].onclick = function a(){
-        window.location.href = '/?part=123';
-    }
-}
-
-export default function initMain(){
-    const root = document.getElementById("root")
-    root.innerHTML = topDiv() + bodyDiv() + bottomDiv()
-    initPageAddFunctionsToButtons()
+export default function init(){
+    const init = document.createElement("div")
+    init.appendChild(top())
+    init.appendChild(body())
+    init.appendChild(bottom())
+    return(init)
 }

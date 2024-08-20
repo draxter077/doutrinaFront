@@ -1,0 +1,38 @@
+.initBodyBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: var(--colorBlack);
+    width: 100%;
+    padding: 20px;
+
+    position: absolute;
+    bottom: 0px;
+}
+
+.initBodyBottom>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.initBodyBottom>div>button{
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background var(--transitionTime), color var(--transitionTime);
+}
+
+.initBodyBottom>div>button:hover{
+    color: var(--colorBlack);
+    background: var(--colorWhite)
+}
+
+@media screen and (max-width: 1000px){
+    .initBodyBottom>div{
+        width: 100%;
+    }
+}
