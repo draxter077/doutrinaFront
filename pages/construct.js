@@ -1,7 +1,20 @@
 import init from "./init/main.js"
+import read from "./read/main.js"
 
-export default async function construct(){
+export default async function construct(data){
     const root = document.getElementById("root")
+    const atts = window.location.href.split("?")[1]
     root.innerHTML = ""
-    root.appendChild(init())
+    if(atts != undefined){
+        const attsType = atts.split("=")[0]
+        const attsValue = atts.split("=")[1]
+        if(attsType == "t"){
+            root.appendChild(read(attsValue))
+        }
+    }
+    else{
+        if(data == undefined){
+            root.appendChild(init())
+        }
+    }
 }
