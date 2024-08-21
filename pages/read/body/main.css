@@ -1,0 +1,14 @@
+@import url("./summary/main.css");
+@import url("./text/main.css");
+
+.readBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) 1s forwards;
+}

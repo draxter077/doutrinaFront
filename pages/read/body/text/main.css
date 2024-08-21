@@ -1,0 +1,7 @@
+.readBodyText{
+    box-shadow: 0px 0px 10px 0px var(--colorBlack);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0px 0px 0px 50px;
+}

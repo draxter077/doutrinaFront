@@ -1,0 +1,6 @@
+.readBodySummary{
+    box-shadow: 0px 0px 10px 0px var(--colorBlack);
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+}
