@@ -1,6 +1,12 @@
 .initBodyLogo{
-    font-size: 35px;
-    color: var(--colorBlack);
-    font-weight: 700;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 20px 0px;
+    width: 40%;
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) 1s forwards;
+}
+
+@media screen and (max-width: 1000px){
+    .initBodyLogo{
+        width: 80%;
+    }
 }

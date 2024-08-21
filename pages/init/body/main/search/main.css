@@ -2,23 +2,28 @@
     display: flex;
     flex-direction: row;
     width: fit-content;
-    border: 1px solid var(--colorBlack);
+    border: 1px solid var(--colorBlue);
     padding: 10px 10px 10px 20px;
     border-radius: 20px;
-    width: 40%;
+    width: 60%;
     transition: box-shadow var(--transitionTime);
+
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) 1.5s forwards;
 }
 
 .initBodySearch:hover{
-    box-shadow: 0px 0px 10px 0px var(--colorBlack);
+    box-shadow: 0px 0px 10px 0px var(--colorBlue);
 }
 
 .initBodySearch>input{
+    background: var(--colorWhite);
     width: 100%;
 }
 
 .initBodySearch>button{
     background: var(--colorWhite);
+    color: var(--colorBlue);
     padding: 5px 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -26,7 +31,7 @@
 }
 
 .initBodySearch>button:hover{
-    background: var(--colorBlack);
+    background: var(--colorBlue);
     color: var(--colorWhite)
 }
 
