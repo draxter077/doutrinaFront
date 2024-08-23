@@ -38,6 +38,9 @@
 }
 
 @media screen and (max-width: 1000px){
+    .initTop{
+        position: static;
+    }
     .initTop>div{
         width: 100%;
         padding: 5px;

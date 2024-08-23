@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width: 1000px){
+    .initBodyBottom{
+        position: static;
+    }
     .initBodyBottom>div{
         width: 100%;
         padding: 5px;

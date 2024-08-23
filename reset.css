@@ -67,7 +67,8 @@ table {
 :root{
 	--colorWhite: rgb(246, 244, 244);
 	--colorBlack: rgb(0, 0, 0);
-	--colorBlue: rgb(10, 22, 61);
+	--colorBlue: rgb(13, 25, 31);
+	--colorRed: rgb(245, 8, 16);
 	--transitionTime: 0.5s;
 }
 body{
@@ -88,7 +89,7 @@ div{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: rgb(0, 255, 150);
+    background: var(--colorBlue);
     border-radius: 20px;
 }
 
