@@ -14,8 +14,6 @@ export default function summary(data){
     title.className = "readBodySummaryTitle"
     title.innerHTML = data.title
     summary.appendChild(title)
-
-    console.log(data)
     
     for(let i = 0; i < data.summary.length; i++){
         let chapter = document.createElement("div")
