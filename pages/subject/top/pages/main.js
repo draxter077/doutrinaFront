@@ -9,7 +9,6 @@ export default function pages(){
     for(let i = 0; i < pgs.length; i++){
         let page = document.createElement("button")
         page.innerHTML = pgs[i]
-        page.onclick = function a(){window.location.href = "/?s=2"}
         pages.appendChild(page)
     }
     return(pages)

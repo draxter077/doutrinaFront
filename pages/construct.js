@@ -1,5 +1,6 @@
 import init from "./init/main.js"
 import read from "./read/main.js"
+import subject from "./subject/main.js"
 
 export default async function construct(data){
     const root = document.getElementById("root")
@@ -10,6 +11,9 @@ export default async function construct(data){
         const attsValue = atts.split("=")[1]
         if(attsType == "t"){
             root.appendChild(read(attsValue))
+        }
+        else if(attsType == "s"){
+            root.appendChild(subject(attsValue))
         }
     }
     else{
