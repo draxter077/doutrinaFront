@@ -5,6 +5,15 @@ function getSubject(n){
     const data = {title: "Algum Direito", 
                 articles: [{title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},
                         {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
+                        {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
+                        {title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},
+                        {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
+                        {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
+                        {title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},
+                        {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
+                        {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
+                        {title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},
+                        {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
                         {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"}
                     ]
                 }
