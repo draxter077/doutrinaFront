@@ -1,4 +1,4 @@
-.readBodyBottom{
+.subjectBodyBottom{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,7 +9,7 @@
     animation: fadeIn var(--transitionTime) var(--transitionTime) forwards;
 }
 
-.readBodyBottom>div{
+.subjectBodyBottom>div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,7 +19,7 @@
     flex-wrap: wrap;
 }
 
-.readBodyBottom>div>button{
+.subjectBodyBottom>div>button{
     background: none;
     color: var(--colorWhite);
     padding: 10px;
@@ -28,13 +28,13 @@
     transition: background var(--transitionTime), color var(--transitionTime);
 }
 
-.readBodyBottom>div>button:hover{
+.subjectBodyBottom>div>button:hover{
     color: var(--colorBlue);
     background: var(--colorWhite)
 }
 
 @media screen and (max-width: 1000px){
-    .readBodyBottom>div{
+    .subjectBodyBottom>div{
         width: 100%;
         padding: 5px;
     }
