@@ -1,6 +1,8 @@
 function search(Event){
     const q = Event.target.parentElement.children[0].value
-    window.location.href = "/?t=2"
+    if(q.length != 0){
+        window.location.href = `/?p=${q}`
+    }
 }
 
 export default function button(){

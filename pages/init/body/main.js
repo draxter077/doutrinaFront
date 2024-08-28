@@ -1,9 +1,10 @@
-import ad from "./ad/main.js"
-import main from "./main/main.js"
+import logo from "./logo/main.js"
+import search from "./search/main.js"
 
 export default function body(){
     const body = document.createElement("div")
     body.className = "initBody"
-    body.appendChild(main())
+    body.appendChild(logo())
+    body.appendChild(search())
     return(body)
 }

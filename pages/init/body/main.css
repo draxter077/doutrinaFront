@@ -1,9 +1,9 @@
-@import url("./main/main.css");
-@import url("./ad/main.css");
+@import url("./logo/main.css");
+@import url("./search/main.css");
 
 .initBody{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;

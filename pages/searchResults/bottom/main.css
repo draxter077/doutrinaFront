@@ -1,0 +1,41 @@
+.searchResultsBodyBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: var(--colorBlue);
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    opacity: 0;
+    animation: fadeIn var(--transitionTime) var(--transitionTime) forwards;
+}
+
+.searchResultsBodyBottom>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px;
+
+    flex-wrap: wrap;
+}
+
+.searchResultsBodyBottom>div>button{
+    background: none;
+    color: var(--colorWhite);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background var(--transitionTime), color var(--transitionTime);
+}
+
+.searchResultsBodyBottom>div>button:hover{
+    color: var(--colorBlue);
+    background: var(--colorWhite)
+}
+
+@media screen and (max-width: 1000px){
+    .searchResultsBodyBottom>div{
+        width: 100%;
+        padding: 5px;
+    }
+}
