@@ -1,0 +1,15 @@
+@import url("./miniLogo/main.css");
+
+.initTop>div>button{
+    background: none;
+    color: var(--colorWhite);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background var(--transitionTime), color var(--transitionTime);
+}
+
+.initTop>div>button:hover{
+    background: var(--colorWhite);
+    color: var(--colorBlue)
+}

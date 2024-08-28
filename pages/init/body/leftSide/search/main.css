@@ -38,5 +38,6 @@
 @media screen and (max-width: 1000px){
     .initBodySearch{
         width: 95%;
+        margin: 0px 0px 20px 0px;
     }
 }

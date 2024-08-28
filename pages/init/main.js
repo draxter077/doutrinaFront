@@ -4,6 +4,7 @@ import bottom from "./bottom/main.js"
 
 export default function init(){
     const init = document.createElement("div")
+    init.className = "init"
     init.appendChild(top())
     init.appendChild(body())
     init.appendChild(bottom())

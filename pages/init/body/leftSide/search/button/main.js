@@ -1,8 +1,10 @@
 function search(Event){
     const q = Event.target.parentElement.children[0].value
-    if(q.length != 0){
-        window.location.href = `/?p=${q}`
-    }
+    const side = Event.target.parentElement.parentElement.parentElement
+    side.style.translate = "-50%";
+    //if(q.length != 0){
+    //    window.location.href = `/?p=${q}`
+    //}
 }
 
 export default function button(){

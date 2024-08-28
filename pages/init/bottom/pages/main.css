@@ -1,0 +1,13 @@
+.initBodyBottom>div>button{
+    background: none;
+    color: var(--colorWhite);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background var(--transitionTime), color var(--transitionTime);
+}
+
+.initBodyBottom>div>button:hover{
+    color: var(--colorBlue);
+    background: var(--colorWhite)
+}

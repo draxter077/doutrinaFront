@@ -1,5 +1,5 @@
-import summary from "./main/summary/main.js"
-import text from "./main/text/main.js"
+import summary from "./summary/main.js"
+import text from "./text/main.js"
 
 function getRead(n){
     const a = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]
@@ -37,16 +37,13 @@ function getRead(n){
 export default function body(n){
     const body = document.createElement("div")
     body.className = "readBody"
-    const main = document.createElement("div")
-    main.className = "readBodyMain"
     const textData = getRead(n)
     let summaryData = []
     for(let i = 0; i < textData.textData.length; i++){
         summaryData.push({title: textData.textData[i].chapter})
     }
     let summar = {title: textData.title, summary: summaryData}
-    main.appendChild(summary(summar))
-    main.appendChild(text(textData.textData))
-    body.appendChild(main)
+    body.appendChild(summary(summar))
+    body.appendChild(text(textData.textData))
     return(body)
 }

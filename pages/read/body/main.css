@@ -1,5 +1,5 @@
-@import url("./main/summary/main.css");
-@import url("./main/text/main.css");
+@import url("./summary/main.css");
+@import url("./text/main.css");
 
 .readBody{
     display: flex;

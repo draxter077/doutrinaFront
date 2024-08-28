@@ -1,10 +1,10 @@
-import logo from "./logo/main.js"
-import search from "./search/main.js"
+import leftSide from "./leftSide/main.js"
+import rightSide from "./rightSide/main.js"
 
 export default function body(){
     const body = document.createElement("div")
     body.className = "initBody"
-    body.appendChild(logo())
-    body.appendChild(search())
+    body.appendChild(leftSide())
+    body.appendChild(rightSide())
     return(body)
 }

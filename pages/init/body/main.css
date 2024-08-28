@@ -1,13 +1,15 @@
-@import url("./logo/main.css");
-@import url("./search/main.css");
+@import url("./leftSide/main.css");
+@import url("./rightSide/main.css");
 
 .initBody{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 200%;
     height: 80vh;
+    overflow: hidden;
+    transition: translate var(--transitionTime);
 
     opacity: 0;
     animation: fadeIn var(--transitionTime) var(--transitionTime) forwards;
@@ -15,7 +17,6 @@
 
 @media screen and (max-width: 1000px){
     .initBody{
-        flex-direction: column;
         height: fit-content;
     }
 }

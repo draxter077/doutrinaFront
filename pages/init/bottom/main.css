@@ -1,3 +1,5 @@
+@import url("./pages/main.css");
+
 .initBodyBottom{
     display: flex;
     flex-direction: row;
@@ -22,24 +24,7 @@
     flex-wrap: wrap;
 }
 
-.initBodyBottom>div>button{
-    background: none;
-    color: var(--colorWhite);
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background var(--transitionTime), color var(--transitionTime);
-}
-
-.initBodyBottom>div>button:hover{
-    color: var(--colorBlue);
-    background: var(--colorWhite)
-}
-
 @media screen and (max-width: 1000px){
-    .initBodyBottom{
-        position: static;
-    }
     .initBodyBottom>div{
         width: 100%;
         padding: 5px;
