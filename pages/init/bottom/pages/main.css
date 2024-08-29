@@ -1,4 +1,4 @@
-.initBodyBottom>div>button{
+.initBottom>div>button{
     background: none;
     color: var(--colorWhite);
     padding: 10px;
@@ -7,7 +7,7 @@
     transition: background var(--transitionTime), color var(--transitionTime);
 }
 
-.initBodyBottom>div>button:hover{
+.initBottom>div>button:hover{
     color: var(--colorBlue);
     background: var(--colorWhite)
 }
