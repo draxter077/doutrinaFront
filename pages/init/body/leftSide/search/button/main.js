@@ -1,10 +1,11 @@
 function search(Event){
     const q = Event.target.parentElement.children[0].value
     const side = Event.target.parentElement.parentElement.parentElement
-    side.style.translate = "-50%";
-    //if(q.length != 0){
-    //    window.location.href = `/?p=${q}`
-    //}
+    const top = Event.target.parentElement.parentElement.parentElement.parentElement.children[0]
+    const bottom = Event.target.parentElement.parentElement.parentElement.parentElement.children[2]
+    top.style.top = "-100%"
+    bottom.style.bottom = "-100%"
+    side.style.translate = "-50%"
 }
 
 export default function button(){
