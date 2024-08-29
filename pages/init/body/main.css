@@ -7,16 +7,9 @@
     justify-content: center;
     align-items: center;
     width: 200%;
-    height: 80vh;
+    height: 85vh;
     overflow: hidden;
     transition: translate var(--transitionTime);
-
     opacity: 0;
     animation: fadeIn var(--transitionTime) var(--transitionTime) forwards;
-}
-
-@media screen and (max-width: 1000px){
-    .initBody{
-        height: 100%;
-    }
 }
