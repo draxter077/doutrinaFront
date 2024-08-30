@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     width: 80%;
     margin: 20px 0px 0px 0px;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 .initBodyRightSideBody>div{
@@ -34,6 +34,9 @@
 }
 
 @media screen and (max-width: 1000px){
+    .initBodyRightSideBody{
+        padding: 0px 0px 150px 0px;
+    }
     .initBodyRightSideBody>div{
         width: 100%;
     }
