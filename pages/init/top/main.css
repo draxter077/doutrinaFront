@@ -12,6 +12,7 @@
     opacity: 0;
     animation: fadeIn var(--transitionTime) var(--transitionTime) forwards;
     transition: top var(--transitionTime);
+    overflow: scroll;
 }
 
 .initTop>div{
