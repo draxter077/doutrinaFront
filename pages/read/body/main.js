@@ -42,7 +42,12 @@ export default function body(n){
     for(let i = 0; i < textData.textData.length; i++){
         summaryData.push({title: textData.textData[i].chapter})
     }
-    let summar = {title: textData.title, summary: summaryData}
+    let summar = {type: "artigo", 
+                date: "01/01/2024", 
+                author: "Alguém da Silva Pereira Castro Santos",
+                title: textData.title, 
+                summary: summaryData
+            }
     body.appendChild(summary(summar))
     body.appendChild(text(textData.textData))
     return(body)

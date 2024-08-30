@@ -1,3 +1,7 @@
+import typeDate from "./typeDate/main.js"
+import title from "./title/main.js"
+import author from "./author/main.js"
+
 async function scrollToID(id){
     const e = document.getElementById(id)
     e.scrollIntoView({behavior:"smooth"})
@@ -9,12 +13,9 @@ async function scrollToID(id){
 export default function summary(data){
     const summary = document.createElement("div")
     summary.className = "readBodySummary"
-
-    const title = document.createElement("div")
-    title.className = "readBodySummaryTitle"
-    title.innerHTML = data.title
-    summary.appendChild(title)
-    
+    summary.appendChild(typeDate(data.type, data.date))
+    summary.appendChild(title(data.title))
+    summary.appendChild(author(data.author))
     for(let i = 0; i < data.summary.length; i++){
         let chapter = document.createElement("div")
         chapter.className = "readBodySummaryChapter"
