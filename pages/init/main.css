@@ -4,4 +4,5 @@
 
 .init{
     overflow: hidden;
+    height: 100dvh;
 }
