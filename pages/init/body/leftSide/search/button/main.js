@@ -1,9 +1,35 @@
+import option from "../../../rightSide/body/option/main.js"
+
 function search(Event){
     const q = Event.target.parentElement.children[0].value
-    const side = Event.target.parentElement.parentElement.parentElement
-    const top = Event.target.parentElement.parentElement.parentElement.parentElement.children[0]
-    top.style.top = "-100%"
-    side.style.translate = "-50%"
+    if(q.length != 0){
+        const side = document.getElementsByClassName("initBody")[0]
+        const top = document.getElementsByClassName("initTop")[0]
+        const title = document.getElementsByClassName("initBodyRightSideTop")[0].children[1]
+        const body = document.getElementsByClassName("initBodyRightSideBody")[0]
+        let a = [{type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"}
+        ]
+        body.innerHTML = ""
+        for(let i = 0; i < a.length; i++){
+            body.appendChild(option(a[i]))
+        }
+        title.innerHTML = q
+        top.style.top = "-100%"
+        side.style.translate = "-50%"
+    }
 }
 
 export default function button(){
