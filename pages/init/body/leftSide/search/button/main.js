@@ -2,6 +2,7 @@ import option from "../../../rightSide/body/option/main.js"
 
 function search(Event){
     const q = Event.target.parentElement.children[0].value
+    Event.target.innerHTML = "Carregando..."
     if(q.length != 0){
         const side = document.getElementsByClassName("initBody")[0]
         const top = document.getElementsByClassName("initTop")[0]
@@ -30,6 +31,7 @@ function search(Event){
         top.style.top = "-100%"
         side.style.translate = "-50%"
     }
+    Event.target.innerHTML = "Pesquisar"
 }
 
 export default function button(){
