@@ -4,6 +4,7 @@ import bottom from "./bottom/main.js"
 
 export default function subject(n){
     const subject = document.createElement("div")
+    subject.className = "subject"
     subject.appendChild(top())
     subject.appendChild(body(n))
     subject.appendChild(bottom())

@@ -1,6 +1,5 @@
-export default function title(tit){
+export default function title(t){
     const title = document.createElement("div")
-    title.className = "subjectBodyArticleTitle"
-    title.innerHTML = tit
+    title.innerHTML = t
     return(title)
 }

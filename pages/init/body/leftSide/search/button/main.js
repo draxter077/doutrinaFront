@@ -8,20 +8,20 @@ function search(Event){
         const top = document.getElementsByClassName("initTop")[0]
         const title = document.getElementsByClassName("initBodyRightSideTop")[0].children[1]
         const body = document.getElementsByClassName("initBodyRightSideBody")[0]
-        let a = [{type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"},
-            {type: "Artigo", title: "título", author: "João da Silva e Tarara dos Santos"}
+        let a = [{type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"},
+            {type: "Artigo", id: "1", title: "título", author: "João da Silva e Tarara dos Santos"}
         ]
         body.innerHTML = ""
         for(let i = 0; i < a.length; i++){

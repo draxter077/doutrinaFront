@@ -1,10 +1,12 @@
+import type_ from "./type/main.js"
 import title from "./title/main.js"
-import authorDate from "./authorDate/main.js"
+import author from "./author/main.js"
 
-export default function article(art){
+export default function article(d){
     const article = document.createElement("div")
-    article.appendChild(title(art.title))
-    article.appendChild(authorDate(art.author, art.date))
-    article.onclick = function a(){window.location.href = "/?t=2"}
-    return article
+    article.appendChild(type_(d.type))
+    article.appendChild(title(d.title))
+    article.appendChild(author(d.author))
+    article.onclick = function a(){window.location.href = `/?t=${d.id}`}
+    return(article)
 }

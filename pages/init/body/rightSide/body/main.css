@@ -16,9 +16,10 @@
     margin: 0px 0px 10px 0px;
     color: var(--colorWhite);
     transition: box-shadow var(--transitionTime);
+    cursor: pointer;
 }
 .initBodyRightSideBody>div:hover{
-    box-shadow: 0px 0px 20px 0px var(--colorBlue);
+    box-shadow: 0px 0px 10px 0px var(--colorBlue);
 }
 
 .initBodyRightSideBody>div>div:nth-child(1){
@@ -26,7 +27,8 @@
     margin: 0px 0px 5px 0px;
 }
 .initBodyRightSideBody>div>div:nth-child(2){
-    font-size: 30px;
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
 }
 .initBodyRightSideBody>div>div:nth-child(3){
     font-size: 12px;
@@ -35,7 +37,8 @@
 
 @media screen and (max-width: 1000px){
     .initBodyRightSideBody{
-        padding: 0px 0px 150px 0px;
+        padding: 0px 0px 100px 0px;
+        width: 95%;
     }
     .initBodyRightSideBody>div{
         width: 100%;

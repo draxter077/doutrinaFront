@@ -2,7 +2,13 @@ import title from "./title/main.js"
 import articles from "./articles/main.js"
 
 function getSubject(n){
-    const data = {title: "Algum Direito", 
+    const names = ["Direito Civil",
+        "Direito Penal",
+        "Direito Processual Civil",
+        "Direito Internacional Público",
+        "Direito Constitucional"
+        ]
+    const data = {title: names[n], 
                 articles: [{title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},
                         {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
                         {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
@@ -10,6 +16,11 @@ function getSubject(n){
                         {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
                         {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
                         {title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},
+                        {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
+                        {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
+                        {title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},
+                        {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
+                        {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
                         {title: "bla bla bla2", date: "01/01/2023", author: "autor da silva"},
                         {title: "bla bla bla3", date: "01/01/2024", author: "autor da silva"},
                         {title: "Bla bla bla1", date: "01/01/2022", author: "autor da silva"},

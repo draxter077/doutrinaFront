@@ -7,5 +7,6 @@ export default function option(d){
     option.appendChild(type_(d.type))
     option.appendChild(title(d.title))
     option.appendChild(author(d.author))
+    option.onclick = function a(){window.location.href = `/?t=${d.id}`}
     return(option)
 }
