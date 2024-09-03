@@ -1,12 +1,13 @@
-.initBottom>div{
+.subjectBodyBottom>div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
     padding: 10px;
+    overflow: scroll;
 }
 
-.initBottom>div>button{
+.subjectBodyBottom>div>button{
     background: none;
     color: var(--colorWhite);
     padding: 10px;
@@ -15,13 +16,13 @@
     transition: background var(--transitionTime), color var(--transitionTime);
 }
 
-.initBottom>div>button:hover{
+.subjectBodyBottom>div>button:hover{
     color: var(--colorBlue);
     background: var(--colorWhite)
 }
 
 @media screen and (max-width: 1000px){
-    .initBottom>div{
+    .subjectBodyBottom>div{
         width: 100%;
         padding: 5px;
     }

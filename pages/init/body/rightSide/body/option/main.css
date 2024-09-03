@@ -2,29 +2,25 @@
 @import url("./title/main.css");
 @import url("./author/main.css");
 
-.subjectBodyArticles>div{
+.initBodyRightSideBody>div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 32%;
-    background: var(--colorWhite);
+    background: var(--colorBlue);
     padding: 15px;
     border-radius: 15px;
-    border: 1px solid var(--colorBlue);
     margin: 0px 0px 10px 0px;
-    color: var(--colorBlue);
+    color: var(--colorWhite);
     transition: box-shadow var(--transitionTime);
     cursor: pointer;
 }
-.subjectBodyArticles>div:hover{
+.initBodyRightSideBody>div:hover{
     box-shadow: 0px 0px 10px 0px var(--colorBlue);
 }
 
 @media screen and (max-width: 1000px){
-    .subjectBodyArticles{
-        padding: 0px 0px 150px 0px;
-    }
-    .subjectBodyArticles>div{
+    .initBodyRightSideBody>div{
         width: 100%;
     }
 }

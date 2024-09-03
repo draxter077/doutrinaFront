@@ -1,3 +1,6 @@
+@import url("./miniLogo/main.css");
+@import url("./pages/main.css");
+
 .readTop{
     display: flex;
     flex-direction: row;
@@ -10,42 +13,4 @@
     top: 0%;
     z-index: 1;
     animation: fadeIn var(--transitionTime) var(--transitionTime) forwards;
-}
-
-.readTop>img{
-    width: 40px;
-    height: 40px;
-    margin: 0px 20px 0px 20px;
-    cursor: pointer;
-}
-
-.readTop>div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    padding: 10px;
-    overflow: scroll;
-}
-
-.readTop>div>button{
-    background: none;
-    color: var(--colorWhite);
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background var(--transitionTime), color var(--transitionTime);
-}
-
-.readTop>div>button:hover{
-    background: var(--colorWhite);
-    color: var(--colorBlue)
-}
-
-@media screen and (max-width: 1000px){
-    .readTop>div{
-        width: 100%;
-        padding: 5px;
-    }
 }

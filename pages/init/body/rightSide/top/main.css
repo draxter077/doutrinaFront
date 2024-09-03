@@ -1,3 +1,6 @@
+@import url("./backButton/main.css");
+@import url("./title/main.css");
+
 .initBodyRightSideTop{
     display: flex;
     flex-direction: row;
@@ -9,20 +12,4 @@
     margin: 50px 0px 0px 0px;
     padding: 10px;
     border-radius: 15px;
-}
-
-.initBodyRightSideTop>div{
-    margin: 0px 0px 0px 10px;
-}
-
-.initBodyRightSideTop>button{
-    width: fit-content;
-    background: var(--colorWhite);
-    padding: 5px 7px;
-    border-radius: 10px;
-    transition: color var(--transitionTime);
-    cursor: pointer;
-}
-.initBodyRightSideTop>button:hover{
-    color: var(--colorRed);
 }

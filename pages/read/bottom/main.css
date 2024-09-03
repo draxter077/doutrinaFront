@@ -1,3 +1,5 @@
+@import url("./pages/main.css");
+
 .readBodyBottom{
     display: flex;
     flex-direction: row;
@@ -10,34 +12,4 @@
     bottom: 0%;
     z-index: 1;
     animation: fadeIn var(--transitionTime) var(--transitionTime) forwards;
-}
-
-.readBodyBottom>div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 60%;
-    padding: 10px;
-    overflow: scroll;
-}
-
-.readBodyBottom>div>button{
-    background: none;
-    color: var(--colorWhite);
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background var(--transitionTime), color var(--transitionTime);
-}
-
-.readBodyBottom>div>button:hover{
-    color: var(--colorBlue);
-    background: var(--colorWhite)
-}
-
-@media screen and (max-width: 1000px){
-    .readBodyBottom>div{
-        width: 100%;
-        padding: 5px;
-    }
 }

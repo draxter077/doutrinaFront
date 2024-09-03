@@ -1,3 +1,6 @@
+@import url("./bar/main.css");
+@import url("./button/main.css");
+
 .initBodySearch{
     display: flex;
     flex-direction: row;
@@ -14,25 +17,6 @@
 
 .initBodySearch:hover{
     box-shadow: 0px 0px 10px 0px var(--colorBlue);
-}
-
-.initBodySearch>input{
-    background: var(--colorWhite);
-    width: 100%;
-}
-
-.initBodySearch>button{
-    background: var(--colorWhite);
-    color: var(--colorBlue);
-    padding: 5px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: color var(--transitionTime), background var(--transitionTime);
-}
-
-.initBodySearch>button:hover{
-    background: var(--colorBlue);
-    color: var(--colorWhite)
 }
 
 @media screen and (max-width: 1000px){

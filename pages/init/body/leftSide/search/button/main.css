@@ -1,0 +1,13 @@
+.initBodySearch>button{
+    background: var(--colorWhite);
+    color: var(--colorBlue);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color var(--transitionTime), background var(--transitionTime);
+}
+
+.initBodySearch>button:hover{
+    background: var(--colorBlue);
+    color: var(--colorWhite)
+}

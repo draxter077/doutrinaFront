@@ -14,19 +14,3 @@
     transition: top var(--transitionTime);
     overflow: scroll;
 }
-
-.initTop>div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    padding: 10px;
-}
-
-@media screen and (max-width: 1000px){
-    .initTop>div{
-        width: 100%;
-        padding: 5px;
-    }
-}

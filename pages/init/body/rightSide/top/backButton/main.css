@@ -1,0 +1,11 @@
+.initBodyRightSideTop>button{
+    width: fit-content;
+    background: var(--colorWhite);
+    padding: 5px 7px;
+    border-radius: 10px;
+    transition: color var(--transitionTime);
+    cursor: pointer;
+}
+.initBodyRightSideTop>button:hover{
+    color: var(--colorRed);
+}
