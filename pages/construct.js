@@ -1,6 +1,7 @@
 import init from "./init/main.js"
 import read from "./read/main.js"
 import subject from "./subject/main.js"
+import admin from "./admin/main.js"
 
 export default async function construct(data){
     const root = document.getElementById("root")
@@ -14,6 +15,11 @@ export default async function construct(data){
         }
         else if(attsType == "s"){
             root.appendChild(subject(attsValue))
+        }
+        else if(attsType == "p"){
+            if(attsValue == "admin"){
+                root.appendChild(admin())
+            }
         }
     }
     else{

@@ -1,4 +1,7 @@
 .subjectBodyArticles>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 32%;
     background: var(--colorWhite);
     padding: 15px;
