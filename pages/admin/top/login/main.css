@@ -1,0 +1,16 @@
+@import url("./user/main.css");
+@import url("./password/main.css");
+@import url("./enter/main.css");
+
+.adminTopLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px){
+    .adminTopLogin{
+        width: 100%;
+    }
+}

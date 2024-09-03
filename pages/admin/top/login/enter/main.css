@@ -1,0 +1,10 @@
+.adminTopLogin>button{
+    background: var(--colorWhite);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: box-shadow var(--transitionTime);
+    width: 30%;
+}
+.adminTopLogin>button:hover{
+    box-shadow: 0px 0px 10px 0px var(--colorWhite);
+}

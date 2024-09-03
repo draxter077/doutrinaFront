@@ -1,4 +1,5 @@
 @import url("./logo/main.css");
+@import url("./login/main.css");
 
 .adminTop{
     display: flex;
