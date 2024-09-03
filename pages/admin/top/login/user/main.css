@@ -3,6 +3,7 @@
     border: 1px solid var(--colorWhite);
     padding: 5px 10px;
     border-radius: 10px;
+    color: var(--colorWhite);
     transition: box-shadow var(--transitionTime);
 }
 
