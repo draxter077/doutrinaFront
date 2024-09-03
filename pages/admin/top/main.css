@@ -1,0 +1,10 @@
+@import url("./logo/main.css");
+
+.adminTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--colorBlue);
+    padding: 10px;
+}

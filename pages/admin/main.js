@@ -1,5 +1,8 @@
+import top from "./top/main.js"
+
 export default function admin(){
     const admin = document.createElement("div")
-    admin.innerHTML = "Em construção ⚙"
+    admin.className = "admin"
+    admin.appendChild(top())
     return(admin)
 }
