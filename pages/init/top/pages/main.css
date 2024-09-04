@@ -1,3 +1,5 @@
+@import url("./page/main.css");
+
 .initTop>div{
     display: flex;
     flex-direction: row;
@@ -5,20 +7,6 @@
     align-items: center;
     width: 80%;
     padding: 10px;
-}
-
-.initTop>div>button{
-    background: none;
-    color: var(--colorWhite);
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background var(--transitionTime), color var(--transitionTime);
-}
-
-.initTop>div>button:hover{
-    background: var(--colorWhite);
-    color: var(--colorBlue)
 }
 
 @media screen and (max-width: 1000px){

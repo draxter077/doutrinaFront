@@ -1,3 +1,5 @@
+import page from "./page/main.js"
+
 export default function pages(){
     const pgs = ["Direito Civil",
                 "Direito Penal",
@@ -7,10 +9,7 @@ export default function pages(){
                 ]
     const pages = document.createElement("div")
     for(let i = 0; i < pgs.length; i++){
-        let page = document.createElement("button")
-        page.innerHTML = pgs[i]
-        page.onclick = function a(){window.location.href = `/?s=${i}`}
-        pages.appendChild(page)
+        pages.appendChild(page({text: pgs[i], id: i}))
     }
     return(pages)
 }

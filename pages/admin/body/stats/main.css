@@ -1,0 +1,8 @@
+@import url("./use/main.css");
+
+.adminBodyStats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
