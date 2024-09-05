@@ -1,0 +1,12 @@
+@import url("./body/main.css");
+
+.adminBodyAddSubject{
+    width: 80%;
+    max-height: 200px;
+    margin: 20px 0px 0px 0px;
+    border: 1px solid var(--colorBlue);
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: max-height var(--transitionTime);
+}

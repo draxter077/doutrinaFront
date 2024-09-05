@@ -1,4 +1,5 @@
 @import url("./stats/main.css");
+@import url("./addSubject/main.css");
 
 .adminBody{
     display: flex;
