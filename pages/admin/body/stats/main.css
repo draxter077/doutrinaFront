@@ -1,4 +1,5 @@
 @import url("./use/main.css");
+@import url("./mostRead/main.css");
 
 .adminBodyStats{
     display: flex;
