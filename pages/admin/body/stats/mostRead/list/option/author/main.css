@@ -1,5 +1,4 @@
 .adminBodyStatsMostReadOption>div:nth-child(2){
     width: 20%;
     padding: 0px 5px;
-    border-right: 1px solid var(--colorBlue);
 }

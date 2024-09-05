@@ -1,5 +1,6 @@
 @import url("./title/main.css");
 @import url("./author/main.css");
+@import url("./views/main.css");
 
 .adminBodyStatsMostReadOption{
     display: flex;

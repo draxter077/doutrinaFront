@@ -1,0 +1,5 @@
+.adminBodyStatsMostReadOption>div:nth-child(3){
+    width: 20%;
+    padding: 0px 5px;
+    text-align: end;
+}
