@@ -75,12 +75,13 @@ body{
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
 	background: var(--colorWhite);
+	cursor: default;
 }
 div{
 	box-sizing: border-box;
 }
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 3px;
 	height: 0px;
 }
 

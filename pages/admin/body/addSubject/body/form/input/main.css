@@ -1,0 +1,13 @@
+.adminBodyAddSubjectForm>input{
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: solid 1px var(--colorBlue);
+    background: transparent;
+    margin: 0px 15px 0px 0px;
+    transition: box-shadow var(--transitionTime);
+}
+
+.adminBodyAddSubjectForm>input:hover{
+    box-shadow: 0px 0px 5px 0px var(--colorBlue);
+}

@@ -3,11 +3,11 @@ import body from "./body/main.js"
 function expand(){
     const item = document.getElementsByClassName("adminBodyAddSubject")[0]
     const n = item.style.maxHeight
-    if(n == "200px"){
-        item.style.maxHeight = "1000px"
+    if(n == "45px"){
+        item.style.maxHeight = "100px"
     }
     else{
-        item.style.maxHeight = "200px"
+        item.style.maxHeight = "45px"
     }
 }
 

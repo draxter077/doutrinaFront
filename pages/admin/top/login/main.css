@@ -12,5 +12,6 @@
 @media screen and (max-width: 1000px){
     .adminTopLogin{
         width: 100%;
+        margin: 10px 0px 0px 0px;
     }
 }

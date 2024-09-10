@@ -1,0 +1,13 @@
+.adminBodyAddSubjectForm>button{
+    font-size: 15px;
+    padding: 10px 15px;
+    background: var(--colorBlue);
+    border-radius: 15px;
+    color: var(--colorWhite);
+    transition: background var(--transitionTime);
+    cursor: pointer;
+}
+
+.adminBodyAddSubjectForm>button:hover{
+    background: var(--colorRed);
+}

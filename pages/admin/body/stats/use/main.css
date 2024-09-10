@@ -8,3 +8,10 @@
     padding: 10px 15px;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 1000px){
+    .adminBodyStats>div:nth-child(1){
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+}

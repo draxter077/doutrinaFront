@@ -1,4 +1,7 @@
+@import url("./form/main.css");
+
 .adminBodyAddSubject>div{
-    background: red;
-    height: 500px;
+    height: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
 }

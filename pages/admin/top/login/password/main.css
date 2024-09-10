@@ -10,3 +10,9 @@
 .adminTopLogin>input:nth-child(2):hover{
     box-shadow: 0px 0px 10px 0px var(--colorWhite);
 }
+
+@media screen and (max-width: 1000px){
+    .adminTopLogin>input:nth-child(2){
+        width: 30%;
+    }
+}

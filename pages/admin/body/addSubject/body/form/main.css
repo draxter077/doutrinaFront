@@ -1,0 +1,8 @@
+@import url("./input/main.css");
+@import url("./button/main.css");
+
+.adminBodyAddSubjectForm{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 0px;
+}
